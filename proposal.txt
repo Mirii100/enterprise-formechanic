@@ -1,0 +1,425 @@
+AUTOPARTS HUB 
+E-Commerce Platform for Motor Vehicle Spare Parts 
+WEBSITE DEVELOPMENT PROPOSAL   
+Prepared by: 
+AutoParts Hub Development Team 
+Prepared for: 
+Management / Stakeholders 
+Date: July 2025   |   Version 1.0   |   Confidential 
+Building East Africa's Premier Online Auto Parts Marketplace 
+TABLE OF CONTENTS 
+1.  Executive Summary  ........................................  3 
+2.  Problem Statement & Market Opportunity  ........................................  3 
+3.  Project Objectives  ........................................  4 
+4.  Website Features & Functional Requirements  ........................................  5 
+5.  Technical Specifications  ........................................  7 
+6.  Design & User Experience  ........................................  8 
+7.  Implementation Plan & Timeline  ........................................  9 
+8.  Budget Estimate  ........................................  10 
+9.  Revenue Model  ........................................  11 
+10.  Risk Assessment & Mitigation  ........................................  11 
+11.  Team & Roles  ........................................  12 
+12.  Conclusion & Call to Action  ........................................  12 
+  
+1. Executive Summary1. Executive Summary 
+This proposal presents the full development plan for AutoParts Hub — a professional, fully 
+functional, and fully responsive e-commerce website purpose-built for selling motor vehicle spare 
+parts and accessories online. The platform will serve individual vehicle owners, fleet managers, 
+mechanics, and garages across the region, enabling them to browse, compare, and purchase auto 
+parts from the comfort of their homes or workshops. 
+The automotive aftermarket industry in East Africa is growing rapidly, yet remains largely 
+fragmented, informal, and offline. AutoParts Hub will bridge this gap by creating a trusted, 
+searchable, and reliable digital marketplace that connects parts suppliers directly with buyers — 
+eliminating middlemen, reducing costs, and improving the availability of genuine parts. 
+KEY HIGHLIGHTS 
+✦  Fully responsive across mobile, tablet, and desktop 
+✦  Integrated M-Pesa, Visa/Mastercard & bank transfer payment 
+✦  Advanced vehicle compatibility search (Make → Model → Year → Part) 
+✦  Real-time inventory management and order tracking 
+✦  Multi-vendor marketplace capability with vendor dashboards 
+✦  Built with SEO best practices for organic discovery 
+2. Problem Statement & Market Opportunity2. Problem Statement & 
+Market Opportunity 
+2.1  The Problem 
+Motor vehicle owners and mechanics across East Africa face significant challenges when sourcing 
+spare parts: 
+✦  Difficulty finding genuine, compatible parts for specific vehicle models 
+✦  Lack of price transparency — buyers cannot compare prices across suppliers 
+✦  Reliance on physical markets that have limited operating hours and are geographically 
+restricted 
+✦  High risk of counterfeit or substandard parts from unverified sellers 
+✦  No structured warranty or return processes for purchased parts 
+✦  Wasted time visiting multiple shops only to find parts out of stock 
+2.2  Market Opportunity 
+The East African automotive parts market represents a multi-billion-shilling opportunity. Key 
+indicators include: 
+Indicator 
+Data Point 
+Registered vehicles in Kenya (2024) 
+Over 4.5 million vehicles 
+Annual automotive parts market value 
+Internet penetration growth rate 
+KES 150–200 Billion+ 
+42% year-on-year increase 
+Mobile phone users placing online orders 
+78% of all e-commerce transactions 
+3. Project Objectives3. Project Objectives 
+The AutoParts Hub website development project is guided by four core objective categories — 
+business, technical, operational, and social — each with specific, measurable targets. 
+3.1  Primary Business Objectives 
+1.  Establish a Trusted Online Sales Channel — Create a professional e-commerce storefront 
+that enables AutoParts Hub to reach customers beyond physical geographic boundaries, 
+operating 24/7 without staffing constraints. 
+2.  Increase Revenue by 40% Within 12 Months — By moving to an online platform, target 
+incremental monthly sales growth through broader market reach, upselling, and cross
+selling functionality. 
+3.  Build a Structured, Searchable Product Catalogue — Digitise the entire inventory — 
+thousands of SKUs across hundreds of vehicle makes and models — into a searchable, 
+filterable, and well-organised online catalogue. 
+4.  Attract and Retain Multi-Segment Customers — Serve individual vehicle owners, 
+professional mechanics, garages, fleet operators, and institutional buyers through 
+tailored experiences and bulk-buying options. 
+5.  Establish Brand Authority and Trust — Position AutoParts Hub as the go-to online 
+destination for genuine, quality-assured motor vehicle parts in East Africa by 
+implementing reviews, warranty badges, and supplier verification. 
+3.2  Technical Objectives 
+1.  Develop a Fully Responsive Website — Ensure seamless, pixel-perfect user experience 
+across all screen sizes: mobile phones (320px+), tablets (768px+), laptops, and desktops 
+— prioritising mobile-first design since over 75% of the target audience browses via 
+smartphone. 
+2.  Implement Advanced Vehicle Compatibility Search — Build a cascading search system 
+(Make → Model → Year → Engine Size → Part Category) so buyers always find the exact 
+compatible part for their specific vehicle without guesswork. 
+3.  Integrate Multiple Secure Payment Gateways — Integrate M-Pesa STK Push (Daraja API), 
+Visa/Mastercard (Stripe or Flutterwave), and bank transfer references with automated 
+payment confirmation and order activation. 
+4.  Achieve Page Load Under 3 Seconds — Optimise all images, leverage CDN delivery, enable 
+caching, and use lazy loading to meet Google Core Web Vitals thresholds for speed and 
+interactivity. 
+5.  Build a Scalable Backend Architecture — Design the database and API layer to handle a 
+catalogue of 50,000+ SKUs and 10,000+ concurrent users without degradation. 
+6.  Implement SSL, PCI DSS Compliance, and Data Security — Ensure all customer data, 
+payment transactions, and vendor information are encrypted and stored in accordance 
+with international security standards. 
+3.3  Operational Objectives 
+1.  Automate Inventory Management — Synchronise stock levels in real-time so customers 
+always see accurate availability; trigger automatic low-stock alerts to administrators 
+when items fall below defined thresholds. 
+2.  Enable Real-Time Order Tracking — Provide buyers with a live order tracking dashboard 
+(Processing → Packed → Dispatched → Delivered) with SMS/email no fica ons at every 
+stage. 
+3.  Reduce Order Processing Time to Under 2 Hours — Automate invoice generation, stock 
+deduction, warehouse picking slips, and dispatch notifications upon payment 
+confirmation. 
+4.  Support Multi-Vendor Operations — Enable verified spare parts dealers and suppliers to list 
+their own inventory on the platform via dedicated vendor dashboards, creating a 
+marketplace model. 
+5.  Provide Actionable Analytics — Equip the admin team with a real-time dashboard showing 
+top-selling parts, revenue by category, customer acquisition channels, cart abandonment 
+rates, and seasonal demand trends. 
+3.4  Customer Experience Objectives 
+1.  Deliver an Intuitive, Frictionless Shopping Journey — Reduce the number of steps from 
+product discovery to checkout to five or fewer, with persistent cart, guest checkout 
+option, and saved addresses. 
+2.  Build Customer Trust Through Transparency — Display product ratings and verified reviews, 
+OEM part numbers, compatibility confirmations, return policy, and warranty information 
+on every product page. 
+3.  Enable Personalisation — Allow registered users to save their vehicle profile so the site 
+automatically filters products relevant to their specific car, and receive personalised 
+recommendations based on purchase history. 
+4.  Provide Multilingual and Multi-Currency Support — Launch in English and Swahili, with 
+pricing displayed in KES, USD, and UGX to serve the wider East African market. 
+5.  Implement a Robust Customer Support System — Integrate live chat (WhatsApp Business 
+API), a ticketing system, and a comprehensive FAQ/knowledge base to reduce support 
+response time to under 1 hour. 
+3.5  Social & Growth Objectives 
+1.  Create Employment Opportunities — The platform will directly employ or contract web 
+developers, content writers, customer service agents, and delivery coordinators. 
+2.  Formalise the Spare Parts Trade — By requiring vendor verification and part authenticity 
+declarations, AutoParts Hub will contribute to reducing counterfeit parts in the market. 
+3.  Achieve 5,000 Registered Users in Year 1 — Through targeted digital marketing (SEO, 
+Google Ads, social media, and WhatsApp campaigns), build a loyal customer base within 
+the first 12 months. 
+4. Website Features & Functional Requirements4. Website Features 
+& Functional Requirements 
+4.1  Customer-Facing Features 
+Feature 
+Vehicle Compatibility Filter 
+Description 
+Cascading dropdown: Make → Model → Year → Engine → 
+Part. Returns only compatible parts. 
+Advanced Product Search 
+Keyword search with autocomplete, filters by brand, price 
+range, condition (OEM/aftermarket), and availability. 
+Product Detail Pages 
+Multiple images, 360° view, part number, compatibility list, 
+specs, reviews, Q&A, related parts. 
+Smart Shopping Cart 
+Persistent cart, quantity controls, saved cart, estimated 
+delivery date, VAT breakdown. 
+Secure Checkout 
+Guest or account checkout, multiple payment methods, 
+address autocomplete, order summary. 
+Order Tracking 
+Real-time status updates with SMS/email notifications at each 
+stage. 
+Customer Account 
+Saved vehicles, order history, wishlists, saved addresses, 
+loyalty points balance. 
+Product Reviews 
+Verified purchase reviews with ratings, photos, and 
+helpfulness votes. 
+Returns Portal 
+Online return request form, prepaid return labels, refund 
+tracking. 
+Live Chat / WhatsApp 
+WhatsApp Business API integration for instant support and 
+part enquiries. 
+4.2  Admin Dashboard Features 
+✦  Product & Inventory Management — Add/edit/delete products, bulk CSV upload, stock level 
+management 
+✦  Order Management — View, process, update, and dispatch orders; print picking slips and 
+invoices 
+✦  Customer Management — View profiles, purchase history, block/verify accounts 
+✦  Vendor Management — Approve/suspend vendors, review listings, set commission rates 
+✦  Payment & Finance Reports — Daily/weekly/monthly revenue reports, M-Pesa 
+reconciliation 
+✦  Analytics Dashboard — Traffic, conversion rates, top products, abandoned carts, revenue by 
+category 
+✦  Promotions & Discounts — Create coupon codes, flash sale timers, bulk discount rules 
+✦  SEO Management — Edit meta tags, sitemaps, structured data for all product pages 
+4.3  Vendor Dashboard Features 
+✦  Product Listing — Vendors upload and manage their own inventory with images and specs 
+✦  Order Notifications — Real-time alerts when an order is placed for their parts 
+✦  Sales Reports — Revenue breakdown, top-selling parts, payout history 
+✦  Inventory Alerts — Low-stock notifications and bulk stock update tools 
+✦  Payout Management — View pending and completed payouts, set payout bank/M-Pesa 
+details 
+5. Technical Specifications5. Technical Specifications 
+Layer 
+Technology / Tool 
+Frontend Framework 
+React.js (Next.js for SSR) — ensures fast load, SEO-friendly 
+rendering 
+Styling 
+Tailwind CSS — responsive utility-first design, mobile-first 
+breakpoints 
+Backend Framework 
+Node.js + Express.js REST API (or Laravel PHP as alternative) 
+Database 
+PostgreSQL (relational) + Redis (caching for search/session) 
+File Storage 
+AWS S3 / Cloudflare R2 for product images and documents 
+Payment — M-Pesa 
+Safaricom Daraja API (STK Push + C2B callback) 
+Payment — Cards 
+Flutterwave or Stripe (Visa, Mastercard, AMEX) 
+SMS Notifications 
+Africa's Talking SMS API 
+Email 
+SendGrid or Mailgun for transactional emails 
+Search Engine 
+Elasticsearch or Algolia for fast, typo-tolerant product search 
+Hosting 
+AWS EC2 / DigitalOcean with auto-scaling + Cloudflare CDN 
+SSL / Security 
+Let's Encrypt SSL, WAF, DDoS protection via Cloudflare 
+CI/CD Pipeline 
+GitHub Actions — automated testing and deployment 
+Analytics 
+Google Analytics 4 + custom admin dashboard (Chart.js) 
+Version Control 
+Git / GitHub with branch-based development workflow 
+6. Design & User Experience6. Design & User Experience 
+6.1  Design Principles 
+The website will follow a professional, clean, and trustworthy visual identity appropriate for an 
+automotive e-commerce brand: 
+✦  Mobile-First Design — All layouts designed for 375px screens first, then scaled up 
+✦  Speed & Performance — Lightweight assets, WebP images, lazy loading, above-the-fold 
+priority rendering 
+✦  Accessibility — WCAG 2.1 AA compliance: keyboard navigation, screen reader support, 
+sufficient contrast 
+✦  Visual Hierarchy — Clear typography scale guiding users from discovery to purchase 
+✦  Trust Signals — SSL padlock, payment badges, vendor verification marks, and return policy 
+prominently displayed 
+6.2  Responsive Breakpoints 
+Device 
+Breakpoint 
+Mobile 
+< 768px 
+Design Approach 
+Single column, sticky cart, swipeable 
+carousels, hamburger nav 
+Tablet 768px – 1024px 
+2-column product grid, expanded filters, 
+horizontal nav 
+Laptop 
+1024px – 1440px 
+3-column grid, sidebar filters, full mega
+menu 
+Desktop 
+> 1440px 
+4-column grid, max-width container, 
+persistent sidebar 
+7. Implementation Plan & Timeline7. Implementation Plan & Timeline 
+The project will be delivered in five structured phases over 20 weeks (approximately 5 months), 
+allowing for iterative testing and feedback between phases. 
+Phase 
+Duration 
+Key Deliverables 
+Phase 1 Discovery & 
+Planning 
+Weeks 1–2 
+Requirements gathering, sitemap, wireframes, brand 
+identity, database schema design 
+Phase 2 Design & 
+Prototyping 
+Weeks 3–5 
+UI/UX design (Figma), mobile & desktop mockups, client 
+approval, design system 
+Phase 3 Core 
+Development 
+Phase 4 Testing & QA 
+Weeks 6–12 
+Weeks 13–16 
+Frontend + backend, product catalogue, search, cart, 
+checkout, M-Pesa integration, admin panel 
+Cross-browser testing, mobile testing, payment gateway 
+testing, load testing, security audit 
+Phase 5 Launch & 
+Handover 
+Weeks 17–20 
+Staging deployment, UAT, live launch, team training, 
+documentation, 30-day post-launch support 
+7.1  Milestones Summary 
+✦  Week 2 — Signed-off project requirements, wireframes, and sitemap 
+✦  Week 5 — Approved UI/UX designs and component library 
+✦  Week 8 — Working alpha: homepage, product listing, and product detail pages 
+✦  Week 10 — Working beta: cart, checkout, and M-Pesa payment flow 
+✦  Week 12 — Complete admin dashboard and vendor management 
+✦  Week 15 — Full QA pass and performance optimisation 
+✦  Week 18 — Staging site live for client UAT 
+✦  Week 20 — Public launch 🚀 
+8. Budget Estimate8. Budget Estimate 
+The following cost breakdown covers all phases of the project from design through to launch and 
+post-launch support. 
+Item 
+Description 
+Est. Cost (KES) 
+UI/UX Design 
+Wireframes, mockups, prototype, 
+design system 
+80,000 – 120,000 
+Frontend Development React/Next.js, responsive UI, 
+component library 
+Backend Development 
+API, database, business logic, 
+integrations 
+200,000 – 280,000 
+200,000 – 300,000 
+M-Pesa Integration Daraja STK Push, C2B callback, 
+reconciliation 
+Card Payment Integration 
+40,000 – 60,000 
+Flutterwave/Stripe, 3D Secure, refunds 
+Admin & Vendor Dashboards Analytics, order management, 
+inventory 
+30,000 – 50,000 
+Product Search & Filters 
+80,000 – 120,000 
+Elasticsearch/Algolia setup and tuning 
+Testing & QA Manual + automated testing, security 
+audit 
+40,000 – 60,000 
+Hosting Setup (Year 1) 
+60,000 – 80,000 
+AWS/DigitalOcean, CDN, SSL, domain 
+Training & Documentation Admin training, video guides, user 
+manual 
+30,000 – 50,000 
+Post-Launch Support (30 days) 
+20,000 – 30,000 
+Bug fixes, performance monitoring 
+30,000 – 50,000 
+TOTAL INVESTMENT 
+All phases included 
+KES 810,000 – 
+1,200,000 
+Note: Exact pricing will be confirmed after detailed technical scoping. Costs may vary based on 
+feature complexity, third-party API fees, and content requirements. 
+9. Revenue Model9. Revenue Model 
+The AutoParts Hub platform will support multiple revenue streams once live: 
+✦  Direct Product Sales — Revenue from AutoParts Hub's own inventory sold through the 
+platform 
+✦  Vendor Commission — 8–15% commission on all third-party vendor sales made through the 
+marketplace 
+✦  Featured Listings — Vendors pay a premium to have their products appear at the top of 
+search results 
+✦  Subscription Tiers for Vendors — Monthly/annual vendor subscription plans with different 
+catalogue limits and analytics access 
+✦  Banner Advertising — Spare parts brands (e.g. Bosch, Denso, NGK) can purchase banner 
+placement 
+✦  Delivery & Logistics Margin — Markup on delivery fees negotiated with courier partners 
+10. Risk Assessment & Mitigation10. Risk Assessment & Mitigation 
+ 
+Risk Likelihood Impact Mitigation Strategy 
+Counterfeit parts listed by 
+vendors 
+Medium High Mandatory vendor verification, OEM part 
+number validation, buyer reporting 
+system 
+Payment gateway downtime Low High Multiple payment options (M-Pesa + card 
++ bank), automatic failover 
+Low initial traffic / slow 
+adoption 
+Medium Medium SEO strategy, Google Ads budget, 
+WhatsApp marketing campaign at launch 
+Data breach or cyber attack Low Very High SSL, WAF, regular penetration testing, PCI 
+DSS compliance, backups 
+Scope creep / delayed delivery Medium Medium Fixed scope contract, weekly progress 
+reviews, phased delivery milestones 
+Vendor non-compliance Medium Medium Terms of service, automated listing 
+review, ability to suspend vendors 
+instantly 
+ 
+11. Team & Roles11. Team & Roles 
+ 
+Role Responsibilities 
+Project Manager Overall coordination, timeline management, client 
+communication, risk tracking 
+UI/UX Designer Wireframes, visual design, prototype, design system, user 
+testing 
+Frontend Developer (×2) React/Next.js development, responsive implementation, 
+component building 
+Backend Developer (×2) API development, database design, business logic, payment 
+integrations 
+QA Engineer Test planning, functional testing, regression, performance, and 
+security testing 
+DevOps Engineer Infrastructure setup, CI/CD pipeline, hosting, monitoring, SSL, 
+backups 
+Content Specialist Product descriptions, SEO copywriting, category pages, blog 
+content 
+Client (AutoParts Hub) Product data, brand assets, approvals, UAT sign-off, staff 
+training attendance 
+  
+12. Conclusion & Call to Action12. Conclusion & Call to Action 
+The motor vehicle spare parts industry in East Africa is at a digital tipping point. Customers are 
+already searching online for the parts they need — and they are increasingly willing to buy online 
+if the experience is trustworthy, the inventory is comprehensive, and the payment process is 
+familiar and secure. 
+AutoParts Hub has a clear and immediate opportunity to become the category leader in this 
+space. By investing in a professional, fully functional, and fully responsive e-commerce platform, 
+the business will not only unlock a new and scalable revenue channel, but also build lasting brand 
+equity, customer loyalty, and competitive advantage that will be very difficult for late entrants to 
+replicate. 
+This proposal outlines everything needed to bring that vision to life — from clear, measurable 
+objectives, to technical specifications, a structured timeline, transparent budget, and a risk 
+mitigation plan. 
+We are ready to build. Let's start the conversation.   
+Next Steps 
+1.  Review and approve this proposal 
+2.  Schedule a kick-off meeting to confirm requirements and scope 
+3.  Sign the development agreement and release 30% initial deposit 
+4.  Begin Phase 1: Discovery & Planning (target start: within 1 week of agreement) 
+AutoParts Hub Development Team   |   proposals@autopartshub.co.ke   |   +254 700 000 000 
+This document is confidential and intended solely for the named recipients. 
